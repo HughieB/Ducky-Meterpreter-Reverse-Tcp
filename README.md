@@ -1,4 +1,4 @@
-# Ducky-Meterpreter-Reverse-Tcp
+# Ducky-Meterpreter-Tcp
 
 Hopefully something useful/fun for some fellow noobs!
 
