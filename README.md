@@ -2,6 +2,8 @@
 
 Hopefully something useful/fun for some fellow noobs!
 
+User needs to be logged in as Admin.
+
 Adjust DELAYS as required.
 
 A keystoke injection attack that creates an exclusion path allowing us to spawn a meterpreter session on a windows machine.
