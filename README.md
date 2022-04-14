@@ -2,6 +2,8 @@
 
 Hopefully something useful/fun for some fellow noobs!
 
+Adjust DELAYS as required.
+
 A keystoke injection attack that creates an exclusion path allowing us to spawn a meterpreter session on a windows machine.
 
 After creating and hosting your .exe simply change the ip address in the script and point it where you are hosting yours.
